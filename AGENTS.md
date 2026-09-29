@@ -24,6 +24,8 @@ Canonical files:
 - `/charly-infrastructure:dbus-layer` — the D-Bus session-bus dependency.
 - `/charly-check:dbus` — the `dbus:` check verb used to test notification
   delivery.
+- `/charly-pod:pod` — the `kind: pod` / deploy schema reference (this candy is
+  composed into a box; services).
 - `/charly-image:layer` — the candy authoring reference (`charly.yml` schema,
   `plan:` step verbs incl. `run:` / `copy:` / `check:`, service declarations).
 - `/charly-check:check` — the check/R10 framework (`charly check box`,
